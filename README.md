@@ -14,4 +14,9 @@ loki <issue-tracker>\
   --column <column>
   --format <output_format>
 ```
-  
+
+### Format specification
+
+* `{issue}`: the issue name
+* `{tags}`: list of the tags [divided with commas]
+* `{assignee}`: list of assignees [divided with commas]
